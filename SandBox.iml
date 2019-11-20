@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="SandBox">
+    <configurations>
+      <configuration name="SandBox" target-platform="Mobile" pure-as="true" main-class="SandBox" output-file="SandBox.swf" output-folder="$MODULE_DIR$/out/production/SandBox">
+        <dependencies>
+          <entries>
+            <entry library-id="0c9dd2e9-3056-4871-b71a-6eac31196093">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIR_SDK_19" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+          </map>
+          <option name="additionalOptions" value="-advanced-telemetry" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android enabled="true" package-file-name="SandBox" />
+        <packaging-ios package-file-name="SandBox" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIR_SDK_19" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="0c9dd2e9-3056-4871-b71a-6eac31196093" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/res/Resources.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
